@@ -13,6 +13,7 @@
 		999895E614CCEAF20040938E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 999895E414CCEAF20040938E /* Credits.rtf */; };
 		999895E914CCEAF20040938E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 999895E814CCEAF20040938E /* AppDelegate.m */; };
 		999895EC14CCEAF20040938E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999895EA14CCEAF20040938E /* MainMenu.xib */; };
+		999895F314CCEC680040938E /* IRproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999895F214CCEC680040938E /* IRproxy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		999895D814CCEAF20040938E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		999895D914CCEAF20040938E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		999895DA14CCEAF20040938E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		999895DD14CCEAF20040938E /* Meo Remote-Info.plist */ = {isa = PBXFileReference; path = "Meo Remote-Info.plist"; sourceTree = "<group>"; };
+		999895DD14CCEAF20040938E /* Meo Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meo Remote-Info.plist"; sourceTree = "<group>"; };
 		999895DF14CCEAF20040938E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		999895E114CCEAF20040938E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		999895E314CCEAF20040938E /* Meo Remote-Prefix.pch */ = {isa = PBXFileReference; path = "Meo Remote-Prefix.pch"; sourceTree = "<group>"; };
+		999895E314CCEAF20040938E /* Meo Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meo Remote-Prefix.pch"; sourceTree = "<group>"; };
 		999895E514CCEAF20040938E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		999895E714CCEAF20040938E /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		999895E714CCEAF20040938E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		999895E814CCEAF20040938E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		999895EB14CCEAF20040938E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		999895F214CCEC680040938E /* IRproxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IRproxy.cpp; sourceTree = "<group>"; };
+		999895F714CCF04A0040938E /* IRproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRproxy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		999895DB14CCEAF20040938E /* Meo Remote */ = {
 			isa = PBXGroup;
 			children = (
+				999895F214CCEC680040938E /* IRproxy.cpp */,
+				999895F714CCF04A0040938E /* IRproxy.h */,
 				999895E714CCEAF20040938E /* AppDelegate.h */,
 				999895E814CCEAF20040938E /* AppDelegate.m */,
 				999895EA14CCEAF20040938E /* MainMenu.xib */,
@@ -168,6 +173,7 @@
 			files = (
 				999895E214CCEAF20040938E /* main.m in Sources */,
 				999895E914CCEAF20040938E /* AppDelegate.m in Sources */,
+				999895F314CCEC680040938E /* IRproxy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +295,7 @@
 				999895F114CCEAF20040938E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
