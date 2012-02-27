@@ -41,4 +41,9 @@ void pressButton(int button);
 - (IBAction)Down:(NSButton *)sender;
 - (IBAction)Ok:(NSButton *)sender;
 
+- (IBAction)Red:(NSButton *)sender;
+- (IBAction)Green:(NSButton *)sender;
+- (IBAction)Yellow:(NSButton *)sender;
+- (IBAction)Blue:(NSButton *)sender;
+
 @end

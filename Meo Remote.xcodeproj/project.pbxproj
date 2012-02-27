@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99977B9914FB19DE00C31551 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 99977B9814FB19DE00C31551 /* red.png */; };
+		99977B9E14FB1A5B00C31551 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 99977B9B14FB1A5B00C31551 /* green.png */; };
+		99977B9F14FB1A5B00C31551 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 99977B9C14FB1A5B00C31551 /* yellow.png */; };
+		99977BA014FB1A5B00C31551 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 99977B9D14FB1A5B00C31551 /* blue.png */; };
 		999895D614CCEAF20040938E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999895D514CCEAF20040938E /* Cocoa.framework */; };
 		999895E014CCEAF20040938E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 999895DE14CCEAF20040938E /* InfoPlist.strings */; };
 		999895E214CCEAF20040938E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 999895E114CCEAF20040938E /* main.m */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99977B9814FB19DE00C31551 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		99977B9B14FB1A5B00C31551 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		99977B9C14FB1A5B00C31551 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		99977B9D14FB1A5B00C31551 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		999895D114CCEAF20040938E /* Meo Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meo Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		999895D514CCEAF20040938E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		999895D814CCEAF20040938E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -85,6 +93,10 @@
 		999895DB14CCEAF20040938E /* Meo Remote */ = {
 			isa = PBXGroup;
 			children = (
+				99977B9B14FB1A5B00C31551 /* green.png */,
+				99977B9C14FB1A5B00C31551 /* yellow.png */,
+				99977B9D14FB1A5B00C31551 /* blue.png */,
+				99977B9814FB19DE00C31551 /* red.png */,
 				999895F214CCEC680040938E /* IRproxy.cpp */,
 				999895F714CCF04A0040938E /* IRproxy.h */,
 				999895E714CCEAF20040938E /* AppDelegate.h */,
@@ -161,6 +173,10 @@
 				999895E014CCEAF20040938E /* InfoPlist.strings in Resources */,
 				999895E614CCEAF20040938E /* Credits.rtf in Resources */,
 				999895EC14CCEAF20040938E /* MainMenu.xib in Resources */,
+				99977B9914FB19DE00C31551 /* red.png in Resources */,
+				99977B9E14FB1A5B00C31551 /* green.png in Resources */,
+				99977B9F14FB1A5B00C31551 /* yellow.png in Resources */,
+				99977BA014FB1A5B00C31551 /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

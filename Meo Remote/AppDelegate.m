@@ -106,5 +106,20 @@ void pressButton(int button)
     pressButton(BUTTON_RIGHT);
 }
 
+- (IBAction)Red:(NSButton *)sender {
+    pressButton(BUTTON_RED);
+}
+
+- (IBAction)Green:(NSButton *)sender {
+    pressButton(BUTTON_GREEN);
+}
+
+- (IBAction)Yellow:(NSButton *)sender {
+    pressButton(BUTTON_YELLOW);
+}
+
+- (IBAction)Blue:(NSButton *)sender {
+    pressButton(BUTTON_BLUE);
+}
 
 @end
