@@ -3,7 +3,7 @@
 //  Meo Remote
 //
 //  Created by Diogo Gomes on 23/01/12.
-//  Copyright (c) 2012 Universidade de Aveiro. All rights reserved.
+//  Copyright (c) 2012 Diogo Gomes. All rights reserved.
 //
 
 #ifndef Meo_Remote_IRproxy_h
@@ -13,6 +13,7 @@
 extern "C" {
 #endif
     void pressIRButton(int);
+    void searchSTB();
 
 #ifdef __cplusplus
 }
@@ -53,16 +54,16 @@ extern "C" {
 
 #define BUTTON_INFO     159
 #define BUTTON_SWITCH   156
-#define BUTTON_FOLDER   106
+#define BUTTON_GRAV     115
 
 #define BUTTON_STOP     123
-#define BUTTON_PLAY     120
-#define BUTTON_REC      
+#define BUTTON_PLAYPAUSE     119
+#define BUTTON_REC      225
 
-#define BUTTON_PREV     118
+#define BUTTON_PREV     117
 #define BUTTON_RWD      118
-#define BUTTON_FWD      106
-#define BUTTON_NEXT     121
+#define BUTTON_FWD      121
+#define BUTTON_NEXT     122
 
 #define BUTTON_RED      140
 #define BUTTON_GREEN    141
@@ -70,8 +71,9 @@ extern "C" {
 #define BUTTON_BLUE     143
 
 #define BUTTON_MUTE     173
-#define BUTTON_SNDOPTS  0
-#define BUTTON_OPTS     0
+#define BUTTON_OPTS     157
+#define BUTTON_SEARCH   106
 #define BUTTON_TVSTB    0
+#define BUTTON_FAV      113
 
 #endif

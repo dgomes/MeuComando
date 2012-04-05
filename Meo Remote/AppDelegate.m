@@ -3,7 +3,7 @@
 //  Meo Remote
 //
 //  Created by Diogo Gomes on 23/01/12.
-//  Copyright (c) 2012 Universidade de Aveiro. All rights reserved.
+//  Copyright (c) 2012 Diogo Gomes. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -23,6 +23,7 @@ void pressButton(int button)
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    searchSTB();
 }
 
 - (IBAction)Power:(NSButton *)sender {
@@ -122,4 +123,10 @@ void pressButton(int button)
     pressButton(BUTTON_BLUE);
 }
 
+- (IBAction)Back:(NSButton *)sender {
+    pressButton(BUTTON_BACK);
+}
+- (IBAction)Info:(NSButton *)sender {
+    pressButton(BUTTON_INFO);
+}
 @end

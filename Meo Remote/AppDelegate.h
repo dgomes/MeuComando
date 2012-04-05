@@ -3,7 +3,7 @@
 //  Meo Remote
 //
 //  Created by Diogo Gomes on 23/01/12.
-//  Copyright (c) 2012 Universidade de Aveiro. All rights reserved.
+//  Copyright (c) 2012 Diogo Gomes. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
@@ -45,5 +45,8 @@ void pressButton(int button);
 - (IBAction)Green:(NSButton *)sender;
 - (IBAction)Yellow:(NSButton *)sender;
 - (IBAction)Blue:(NSButton *)sender;
+
+- (IBAction)Back:(NSButton *)sender;
+- (IBAction)Info:(NSButton *)sender;
 
 @end
