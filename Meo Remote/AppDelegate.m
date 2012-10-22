@@ -68,7 +68,7 @@ void pressButton(int button)
 }
 
 - (IBAction)Number0:(NSButton *)sender {
-    pressButton(BUTTON_NUMBER_9);
+    pressButton(BUTTON_NUMBER_0);
 }
 
 - (IBAction)VolUp:(NSButton *)sender {
