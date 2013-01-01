@@ -123,10 +123,60 @@ void pressButton(int button)
     pressButton(BUTTON_BLUE);
 }
 
+- (IBAction)Menu:(NSButton *)sender {
+    pressButton(BUTTON_MENU);
+}
+
 - (IBAction)Back:(NSButton *)sender {
     pressButton(BUTTON_BACK);
 }
+- (IBAction)Output:(NSButton *)sender {
+    pressButton(BUTTON_SCREEN);
+}
+- (IBAction)GuiaTV:(NSButton *)sender {
+    pressButton(BUTTON_GUIA);
+}
+- (IBAction)VideoClube:(NSButton *)sender {
+    pressButton(BUTTON_VOD);
+}
+
 - (IBAction)Info:(NSButton *)sender {
     pressButton(BUTTON_INFO);
+}
+- (IBAction)Switch:(NSButton *)sender {
+    pressButton(BUTTON_SWITCH);
+}
+- (IBAction)Gravacoes:(NSButton *)sender {
+    pressButton(BUTTON_GRAV);
+}
+
+- (IBAction)Stop:(NSButton *)sender {
+    pressButton(BUTTON_STOP);
+}
+- (IBAction)PlayPause:(NSButton *)sender {
+    pressButton(BUTTON_PLAYPAUSE);
+}
+- (IBAction)Rec:(NSButton *)sender{
+    pressButton(BUTTON_REC);
+}
+
+- (IBAction)Prev:(NSButton *)sender{
+    pressButton(BUTTON_PREV);
+}
+- (IBAction)Backward:(NSButton *)sender {
+    pressButton(BUTTON_RWD);
+}
+- (IBAction)Forward:(NSButton *)sender {
+    pressButton(BUTTON_FWD);
+}
+- (IBAction)Next:(NSButton *)sender {
+    pressButton(BUTTON_NEXT);
+}
+
+- (IBAction)Mute:(NSButton *)sender {
+    pressButton(BUTTON_MUTE);
+}
+- (IBAction)Options:(NSButton *)sender {
+    pressButton(BUTTON_OPTS);
 }
 @end
