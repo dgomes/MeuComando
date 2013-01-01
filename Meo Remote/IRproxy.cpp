@@ -153,6 +153,9 @@ void searchSTB() {
         }
         close(net);
     }
+    fprintf(stderr, "Failing back to \"default\" IP: 192.168.1.64");
+    strcpy(stbIP, "192.168.1.64");
+
 }
 
 void pressIRButton(int button) {
