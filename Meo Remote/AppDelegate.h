@@ -41,12 +41,31 @@ void pressButton(int button);
 - (IBAction)Down:(NSButton *)sender;
 - (IBAction)Ok:(NSButton *)sender;
 
+- (IBAction)Menu:(NSButton *)sender;
+
+- (IBAction)Back:(NSButton *)sender;
+- (IBAction)Output:(NSButton *)sender;
+- (IBAction)GuiaTV:(NSButton *)sender;
+- (IBAction)VideoClube:(NSButton *)sender;
+
+- (IBAction)Info:(NSButton *)sender;
+- (IBAction)Switch:(NSButton *)sender;
+- (IBAction)Gravacoes:(NSButton *)sender;
+
+- (IBAction)Stop:(NSButton *)sender;
+- (IBAction)PlayPause:(NSButton *)sender;
+- (IBAction)Rec:(NSButton *)sender;
+
+- (IBAction)Prev:(NSButton *)sender;
+- (IBAction)Backward:(NSButton *)sender;
+- (IBAction)Forward:(NSButton *)sender;
+- (IBAction)Next:(NSButton *)sender;
+
 - (IBAction)Red:(NSButton *)sender;
 - (IBAction)Green:(NSButton *)sender;
 - (IBAction)Yellow:(NSButton *)sender;
 - (IBAction)Blue:(NSButton *)sender;
 
-- (IBAction)Back:(NSButton *)sender;
-- (IBAction)Info:(NSButton *)sender;
-
+- (IBAction)Mute:(NSButton *)sender;
+- (IBAction)Options:(NSButton *)sender;
 @end
