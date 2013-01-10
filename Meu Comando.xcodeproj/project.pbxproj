@@ -17,7 +17,9 @@
 		999895E614CCEAF20040938E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 999895E414CCEAF20040938E /* Credits.rtf */; };
 		999895E914CCEAF20040938E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 999895E814CCEAF20040938E /* AppDelegate.m */; };
 		999895EC14CCEAF20040938E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999895EA14CCEAF20040938E /* MainMenu.xib */; };
-		999895F314CCEC680040938E /* IRproxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 999895F214CCEC680040938E /* IRproxy.cpp */; };
+		999895F314CCEC680040938E /* IRproxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = 999895F214CCEC680040938E /* IRproxy.mm */; };
+		99C54F16169CE58800CD5123 /* comandomeo_512x512@2x 1.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C54F15169CE58800CD5123 /* comandomeo_512x512@2x 1.icns */; };
+		99C54F18169CE59F00CD5123 /* comandomeo_512x512@2x 1.icns in Resources */ = {isa = PBXBuildFile; fileRef = 99C54F17169CE59F00CD5123 /* comandomeo_512x512@2x 1.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,18 +30,19 @@
 		999895D114CCEAF20040938E /* Meu Comando.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meu Comando.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		999895D514CCEAF20040938E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		999895D814CCEAF20040938E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		999895D914CCEAF20040938E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		999895DA14CCEAF20040938E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		999895DD14CCEAF20040938E /* Meu Comando-Info.plist */ = {isa = PBXFileReference; path = "Meu Comando-Info.plist"; sourceTree = "<group>"; };
+		999895DD14CCEAF20040938E /* Meu Comando-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meu Comando-Info.plist"; sourceTree = "<group>"; };
 		999895DF14CCEAF20040938E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		999895E114CCEAF20040938E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		999895E314CCEAF20040938E /* Meu Comando-Prefix.pch */ = {isa = PBXFileReference; path = "Meu Comando-Prefix.pch"; sourceTree = "<group>"; };
+		999895E314CCEAF20040938E /* Meu Comando-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meu Comando-Prefix.pch"; sourceTree = "<group>"; };
 		999895E514CCEAF20040938E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		999895E714CCEAF20040938E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		999895E814CCEAF20040938E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		999895EB14CCEAF20040938E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		999895F214CCEC680040938E /* IRproxy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IRproxy.cpp; sourceTree = "<group>"; };
+		999895F214CCEC680040938E /* IRproxy.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = IRproxy.mm; sourceTree = "<group>"; };
 		999895F714CCF04A0040938E /* IRproxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRproxy.h; sourceTree = "<group>"; };
+		99C54F15169CE58800CD5123 /* comandomeo_512x512@2x 1.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "comandomeo_512x512@2x 1.icns"; sourceTree = "<group>"; };
+		99C54F17169CE59F00CD5123 /* comandomeo_512x512@2x 1.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "comandomeo_512x512@2x 1.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		999895C614CCEAF20040938E = {
 			isa = PBXGroup;
 			children = (
+				99C54F17169CE59F00CD5123 /* comandomeo_512x512@2x 1.icns */,
 				999895DB14CCEAF20040938E /* Meu Comando */,
 				999895D414CCEAF20040938E /* Frameworks */,
 				999895D214CCEAF20040938E /* Products */,
@@ -84,7 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				999895D814CCEAF20040938E /* AppKit.framework */,
-				999895D914CCEAF20040938E /* CoreData.framework */,
 				999895DA14CCEAF20040938E /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -97,7 +100,7 @@
 				99977B9C14FB1A5B00C31551 /* yellow.png */,
 				99977B9D14FB1A5B00C31551 /* blue.png */,
 				99977B9814FB19DE00C31551 /* red.png */,
-				999895F214CCEC680040938E /* IRproxy.cpp */,
+				999895F214CCEC680040938E /* IRproxy.mm */,
 				999895F714CCF04A0040938E /* IRproxy.h */,
 				999895E714CCEAF20040938E /* AppDelegate.h */,
 				999895E814CCEAF20040938E /* AppDelegate.m */,
@@ -111,6 +114,7 @@
 		999895DC14CCEAF20040938E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99C54F15169CE58800CD5123 /* comandomeo_512x512@2x 1.icns */,
 				999895DD14CCEAF20040938E /* Meu Comando-Info.plist */,
 				999895DE14CCEAF20040938E /* InfoPlist.strings */,
 				999895E114CCEAF20040938E /* main.m */,
@@ -146,7 +150,7 @@
 		999895C814CCEAF20040938E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Universidade de Aveiro";
 			};
 			buildConfigurationList = 999895CB14CCEAF20040938E /* Build configuration list for PBXProject "Meu Comando" */;
@@ -178,6 +182,8 @@
 				99977B9E14FB1A5B00C31551 /* green.png in Resources */,
 				99977B9F14FB1A5B00C31551 /* yellow.png in Resources */,
 				99977BA014FB1A5B00C31551 /* blue.png in Resources */,
+				99C54F16169CE58800CD5123 /* comandomeo_512x512@2x 1.icns in Resources */,
+				99C54F18169CE59F00CD5123 /* comandomeo_512x512@2x 1.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,7 +196,7 @@
 			files = (
 				999895E214CCEAF20040938E /* main.m in Sources */,
 				999895E914CCEAF20040938E /* AppDelegate.m in Sources */,
-				999895F314CCEC680040938E /* IRproxy.cpp in Sources */,
+				999895F314CCEC680040938E /* IRproxy.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +280,7 @@
 		999895F014CCEAF20040938E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meo Remote/Meu Comando-Prefix.pch";
 				INFOPLIST_FILE = "Meo Remote/Meu Comando-Info.plist";
@@ -285,6 +292,7 @@
 		999895F114CCEAF20040938E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Meo Remote/Meu Comando-Prefix.pch";
 				INFOPLIST_FILE = "Meo Remote/Meu Comando-Info.plist";

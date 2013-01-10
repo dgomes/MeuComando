@@ -26,6 +26,17 @@ void pressButton(int button)
     searchSTB();
 }
 
+- (void)applicationWillTerminate:(NSNotification *)notification {
+    NSLog(@"Over and Out");
+}
+
+- (void) applicationDidBecomeActive:(NSNotification *)notification
+{
+//    [[_window standardWindowButton:NSWindowCloseButton] setHidden:YES];
+//    [[_window standardWindowButton:NSWindowZoomButton] setHidden:YES];
+//    [[_window standardWindowButton:NSWindowMiniaturizeButton] setFrame:[_window standardWindowButton:NSWindowCloseButton].frame];
+}
+
 - (IBAction)Power:(NSButton *)sender {
     pressButton(BUTTON_POWER);
     
