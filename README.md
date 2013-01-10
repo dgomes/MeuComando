@@ -6,4 +6,4 @@ simple MS MediaRoom remote control app, that enables me to control my STB withou
 Screenshot
 ==========
 
-!(Screenshot)[http://i.imgur.com/bP3jN.png]
+![Screenshot](http://i.imgur.com/bP3jN.png)
