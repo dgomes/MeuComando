@@ -7,7 +7,8 @@ Screenshot
 ==========
 
 ![Screenshot](http://i.imgur.com/bP3jN.png)
-![Screenshot](http://i.imgur.com/hJ4ms.png) |
+![Screenshot](http://i.imgur.com/hJ4ms.png)
+
 Version 1.0 	|	Version 1.1 (only the theme changed)
 
 Download
