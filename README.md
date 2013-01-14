@@ -6,8 +6,9 @@ simple MS MediaRoom remote control app, that enables me to control my STB withou
 Screenshot
 ==========
 
-| Version 1.0 | ![Screenshot](http://i.imgur.com/bP3jN.png) |
-| Version 1.1 (only the theme changed) |  ![Screenshot](http://i.imgur.com/hJ4ms.png) |
+![Screenshot](http://i.imgur.com/bP3jN.png)
+![Screenshot](http://i.imgur.com/hJ4ms.png) |
+Version 1.0 	|	Version 1.1 (only the theme changed)
 
 Download
 ========
