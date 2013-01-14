@@ -14,5 +14,5 @@ Version 1.0 	|	Version 1.1 (only the theme changed)
 Download
 ========
 
-[ver1.0](http://goo.gl/zqs7P)
-[ver1.1](http://goo.gl/TAoEO)
+- [ver1.0](http://goo.gl/zqs7P)
+- [ver1.1](http://goo.gl/TAoEO)
