@@ -20,8 +20,15 @@ void pressButton(int button)
     });
 }
 
+- (void) awakeFromNib {
+    //[_window setBackgroundColor: [NSColor colorWithDeviceRed:0.207f green:0.207f blue:0.207f alpha:1.0]];
+    [_window setBackgroundColor:[NSColor colorWithPatternImage:[NSImage imageNamed:@"comandobackground.png"]]];
+    [_window setOpaque:FALSE];
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    [_window setMovableByWindowBackground:YES];
     // Insert code here to initialize your application
     searchSTB();
 }
@@ -32,14 +39,17 @@ void pressButton(int button)
 
 - (void) applicationDidBecomeActive:(NSNotification *)notification
 {
-//    [[_window standardWindowButton:NSWindowCloseButton] setHidden:YES];
-//    [[_window standardWindowButton:NSWindowZoomButton] setHidden:YES];
-//    [[_window standardWindowButton:NSWindowMiniaturizeButton] setFrame:[_window standardWindowButton:NSWindowCloseButton].frame];
+    [[_window standardWindowButton:NSWindowCloseButton] setHidden:YES];
+    [[_window standardWindowButton:NSWindowZoomButton] setHidden:YES];
+    [[_window standardWindowButton:NSWindowMiniaturizeButton] setHidden:YES];
+}
+
+- (IBAction)min:(id)sender {
+    [_window miniaturize:nil];
 }
 
 - (IBAction)Power:(NSButton *)sender {
     pressButton(BUTTON_POWER);
-    
 }
 
 - (IBAction)Number1:(NSButton *)sender {

@@ -13,6 +13,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
+- (IBAction)min:(id)sender;
+
 void pressButton(int button);
 
 - (IBAction)Power:(NSButton *)sender;
